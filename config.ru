@@ -1,3 +1,7 @@
-require './config/environment'
+require 'config/environment.rb'
 
-run App
+
+
+use UsersController
+use WordController
+run ApplicationController
